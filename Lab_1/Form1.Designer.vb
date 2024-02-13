@@ -28,7 +28,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(539, 214)
+        Button1.Location = New Point(539, 199)
         Button1.Name = "Button1"
         Button1.Size = New Size(169, 71)
         Button1.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(94, 214)
+        Button2.Location = New Point(96, 199)
         Button2.Name = "Button2"
         Button2.Size = New Size(175, 71)
         Button2.TabIndex = 1
@@ -46,7 +46,7 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(Button2)

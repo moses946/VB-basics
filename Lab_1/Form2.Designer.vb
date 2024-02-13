@@ -84,7 +84,7 @@ Partial Class Form2
         ' RadioButton4
         ' 
         RadioButton4.AutoSize = True
-        RadioButton4.Font = New Font("Segoe UI", 9.0F, FontStyle.Italic)
+        RadioButton4.Font = New Font("Segoe UI", 9F, FontStyle.Italic)
         RadioButton4.Location = New Point(19, 55)
         RadioButton4.Name = "RadioButton4"
         RadioButton4.Size = New Size(62, 24)
@@ -96,7 +96,7 @@ Partial Class Form2
         ' RadioButton5
         ' 
         RadioButton5.AutoSize = True
-        RadioButton5.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        RadioButton5.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         RadioButton5.Location = New Point(19, 129)
         RadioButton5.Name = "RadioButton5"
         RadioButton5.Size = New Size(62, 24)
@@ -108,7 +108,7 @@ Partial Class Form2
         ' RadioButton6
         ' 
         RadioButton6.AutoSize = True
-        RadioButton6.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold Or FontStyle.Italic)
+        RadioButton6.Font = New Font("Segoe UI", 9F, FontStyle.Bold Or FontStyle.Italic)
         RadioButton6.Location = New Point(19, 202)
         RadioButton6.Name = "RadioButton6"
         RadioButton6.Size = New Size(104, 24)
@@ -207,7 +207,7 @@ Partial Class Form2
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         Button1.Location = New Point(749, 430)
         Button1.Name = "Button1"
         Button1.Size = New Size(155, 46)
@@ -217,7 +217,7 @@ Partial Class Form2
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(37, 149)
+        PictureBox1.Location = New Point(37, 134)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(281, 261)
         PictureBox1.TabIndex = 11
@@ -225,7 +225,7 @@ Partial Class Form2
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         Button2.Location = New Point(98, 423)
         Button2.Name = "Button2"
         Button2.Size = New Size(158, 53)
@@ -242,7 +242,7 @@ Partial Class Form2
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        Label1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Label1.Location = New Point(318, 13)
         Label1.Name = "Label1"
         Label1.Size = New Size(231, 28)
@@ -251,7 +251,7 @@ Partial Class Form2
         ' 
         ' Form2
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1060, 488)
         Controls.Add(Label1)
